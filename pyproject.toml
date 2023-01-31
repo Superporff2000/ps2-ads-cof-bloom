@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ps2-census-api"
+version = "0.1.0"
+description = ""
+authors = ["SuperPorff2000 <superporff2000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ps2_census_api", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
